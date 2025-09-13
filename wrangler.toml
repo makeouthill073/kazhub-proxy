@@ -1,9 +1,9 @@
 name = "kazhub-proxy"
 main = "index.js"
-compatibility_date = "2025-03-04"
+compatibility_date = "2025-09-13"
 
 # Fuck off Cloudflare
-workers_dev = false
+workers_dev = true
 send_metrics = false
 
 # Force enable keeping logs
